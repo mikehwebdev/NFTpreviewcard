@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'outfit', arial;
+    background-color: hsl(217,54%, 11%);
+}
+
+.card {
+    position: relative;
+    margin: 1.5em auto 0 auto;
+    max-width: 385px;
+    border-radius: 15px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 0.2em 0 1.75em 0; 
+}
+
+h1 {
+    color: white;
+    font-weight: 600;
+    text-align: left;
+    margin: 1em 0 0 0.8em;
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+h2 {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 1em;
+    margin-left: 1.5em;
+    margin-right: 1.3em;
+}
+
+.e-img-container {
+    position: relative;
+    margin: 1.5em auto 0 auto;
+    width: 85%;
+    height: auto;
+    padding: 0 0 0 0;
+}
+
+.reveal {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 99%;
+    max-width: 385px;
+    border-radius: 15px;
+    top: 0;
+    left: 0;
+    background-color:  hsl(178, 100%, 50%);
+    opacity: 0;
+}
+
+.reveal:hover {
+    position: absolute;
+    opacity: 0.6;
+    transition: 250ms ease-in;
+    background-color:  hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.etherium-img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1.3em 1.3em 0 1.3em;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    padding-bottom: 1em; 
+}
+
+.flex-etherium {
+   display: flex;
+   flex-direction: row;
+   justify-content: center; 
+   align-items: center;
+   margin: 0 0 0 0.2em;
+}
+
+.flex-time {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    align-items: center;
+    margin: 0 0.2em 0 0;
+ }
+
+ .eth-text {
+    color: hsl(178, 100%, 50%);
+    margin-left: 0.5em;
+ }
+
+ .countdown-text {
+    color: hsl(215, 51%, 70%);
+    margin-left: 0.5em;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 0 0 0.5em;
+}
+
+.creation-text {
+    color: hsl(215, 51%, 70%);
+    margin: 1em 0 0 1em;
+}
+
+span {
+    color: white;
+}
+
+span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.profile-image {
+    border: 2px solid white;
+    border-radius: 75px;
+    width: 3em;
+    margin: 1em 0 0 1em;
+}
